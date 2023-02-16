@@ -9,7 +9,7 @@ function domaingenerator() {
   let pronoun = ["The", "Our"];
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
-  let end = [".com", ".net"];
+  let end = [".com", ".net", ".org"];
   let resultArray = [];
   for (let p = 0; p < pronoun.length; p++) {
     for (let a = 0; a < adj.length; a++) {
